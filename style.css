@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navbarSection */
+#navBar{
+    position: fixed;
+    width: 100%;
+}
+
+#navBar span{
+    color: rgb(75, 75, 252);
+    font-weight: 500;
+}
+.nav-item a{
+    color: gray !important;
+}
+
+#searchDiv{
+    position: relative;
+    width: 600px !important;
+}
+
+#searchDiv i{
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(75, 75, 252);
+}
+#searchBar::placeholder{
+padding-left: 30px;
+letter-spacing: 1px;
+color: gray;
+
+}
+.userLog{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 150px;
+    margin-left: 20px;
+    visibility: hidden;
+}
+
+#loginUserLetter{
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 30px;
+    border-radius:100%;
+    margin-left: 10px;
+    padding: 2px 11px;
+    background-color: rgb(75, 75, 252);
+    color: white;
+}
+
+#userLogName{
+    /* border: 1px solid black; */
+    height: 30px;
+    min-width:95px;
+    /* border-radius:100%; */
+    margin-left: 10px;
+    padding: 3px 5px;
+}
+
+#buttons{
+    position: absolute;
+    right: -220px;
+    top: 3px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red;   */
+    width: 200px;
+    padding: 2px 5px;
+}
+
+#buttons a button{
+    width: 80px;
+    height: 28px;
+    margin-left: 10px;
+    text-decoration: none;
+    border: 2px solid rgb(75, 75, 252);
+    color:  rgb(75, 75, 252);
+    background-color:  transparent;
+    font-size: 14px;
+
+
+}
+#buttons a #signBtn{
+    border:  2px solid rgb(75, 75, 252) !important;
+    color:  white !important;
+
+    background-color:  rgb(75, 75, 252) !important;
+
+}
+/* mainSetion */
+#mainSec{
+   padding-top: 160px;
+   height: 550px; 
+   background-image: url(./Assets/mainposter.jpg);
+}

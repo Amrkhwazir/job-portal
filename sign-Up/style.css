@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;
+}
+
+#rigesterBtn{
+    background-color: rgb(75, 75, 252);
+    color: white;
+}
+
+#signForm{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    box-shadow: 2px 2px 4px 1px rgb(147, 147, 147);
+    margin: 50px 350px;
+}
+
+#signForm input{
+    border: none;
+}
+
+#signForm input::placeholder{
+    color: gray;
+}

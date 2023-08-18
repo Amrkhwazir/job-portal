@@ -1,0 +1,73 @@
+body{
+    background-color: whitesmoke;
+}
+
+#loginBtn{
+    background-color: rgb(75, 75, 252);
+    color: white;
+    margin-top: 6px;
+    font-weight: 600;
+    width: 220px;
+    margin-left: 50px;
+}
+
+#loginForm{
+    position: relative;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    box-shadow: 2px 2px 4px 1px rgb(147, 147, 147);
+    margin: 50px 350px;
+    height: 470px;
+}
+
+#loginForm input{
+    border: none;
+    padding-left: 26px;
+    color: gray;
+}
+#loginForm input::placeholder{
+    color: gray;
+}
+#loginForm label{
+    font-weight: 500;
+    color: royalblue;
+
+}
+
+
+#loginForm svg{
+    position: absolute;
+    top: 140px;
+    left: 26px;
+    color: rgb(97, 97, 97);
+}
+#loginForm #lockSvg{
+    position: absolute;
+    top: 224px;
+    left: 26px;
+    color: rgb(88, 88, 88);
+}
+#forgotPasscode a{
+text-decoration: underline;
+color: rgb(82, 82, 82);
+position: absolute;
+right: 20px;
+}
+
+#signIn{
+    color:  rgb(82, 82, 82);
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#signIn p{
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+#signIn a{
+    color: rgb(82, 82, 82);
+    text-decoration: none;
+    font-weight: 700;
+}
